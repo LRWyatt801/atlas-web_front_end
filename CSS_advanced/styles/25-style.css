@@ -387,7 +387,7 @@ a:active {
 .button {
 	display: var(--botton-display);
 	padding: var(--button-padding);
-	border-style: var(--button-border);
+	border: var(--button-border);
 	font-size: var(--button-font-size);
 	color: var(--button-color);
 	text-decoration: var(--button-text-decoration);
@@ -559,7 +559,7 @@ ul.row {
 	--nav-item-margin: 0 0 3rem 0;
 	--nav-item-link-hover: var(--color-primary);
 	/* Button styling */
-	--botton-display: inline-block;
+	--button-display: inline-block;
 	--button-padding: 1.5rem 3rem;
 	--button-border: 0.2rem solid var(--color-primary);
 	--button-color: var(--color-black);
